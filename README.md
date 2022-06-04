@@ -1,1 +1,53 @@
-# TRX
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> 나만의 장르별 영화추천PICK!!</title>
+        <style>
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+            }
+            
+            li {
+              float: left;
+            }
+            
+            li a {
+              display: block;
+              padding: 8px;
+              background-color: #DDDDDD;
+              
+              
+            }
+            body {
+    background-color: #74b4b8;
+}
+h1 {
+    background-color: orange;
+}
+p {
+    background-color: rgb(255,0,0);
+}
+
+           
+            </style>
+    </head>
+    <body>
+        <h1>장르별 영화추천PICK!!</h1>
+        <ul>
+            <li><a href="Romance.html"style="color: red">Romance</a></li>
+            <li><a href="Action.html"style="color: blue">Action</a></li>
+            <li><a href="Comedy.html"style="color: yellow">Comedy</a></li>
+            <li><a href="SF(공상과학).html"style="color: green">Fantasy</a></li>
+          </ul>
+          <img src="image/장르별 영화 추천.jpg"alt="영화 아이콘"style="width:1890px; height:1000px;">
+          
+          
+            
+          
+        
+    </body>
+</html>
